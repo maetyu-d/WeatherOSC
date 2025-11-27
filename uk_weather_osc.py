@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-# UK City Weather → OSC for Pure Data (Open-Meteo)
-# Full script exactly as given earlier.
+# UK City Weather (Open-Meteo) => OSC (with Pure Data example) 
 
 import tkinter as tk
 from tkinter import ttk, messagebox
