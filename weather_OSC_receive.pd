@@ -1,4 +1,4 @@
-#N canvas 835 103 1268 509 12;
+#N canvas 173 312 1268 509 12;
 #X obj 77 146 oscparse;
 #X obj 77 191 list trim;
 #X text 646 4 matd.space;
@@ -21,6 +21,9 @@
 #X floatatom 924 364 5 0 0 0 - - - 0;
 #X obj 735 277 route manchester;
 #X text 641 121 Gets the weather for the 10 biggest UK cities from open meteo;
+#X obj 404 419 vsl 19 162 -10 40 0 0 empty empty empty 0 -9 0 12 #faff00 #000000 #000000 0 1;
+#X obj 735 423 vsl 19 162 -10 40 0 0 empty empty empty 0 -9 0 12 #faff00 #000000 #000000 0 1;
+#X obj 77 420 vsl 19 162 -10 40 0 0 empty empty empty 0 -9 0 12 #faff00 #000000 #000000 0 1;
 #X connect 0 0 1 0;
 #X connect 1 0 5 0;
 #X connect 4 0 0 0;
@@ -31,11 +34,14 @@
 #X connect 7 0 8 0;
 #X connect 7 1 9 0;
 #X connect 7 2 10 0;
+#X connect 8 0 24 0;
 #X connect 11 0 12 0;
 #X connect 11 1 13 0;
 #X connect 11 2 14 0;
+#X connect 12 0 22 0;
 #X connect 15 0 11 0;
 #X connect 16 0 17 0;
 #X connect 16 1 18 0;
 #X connect 16 2 19 0;
+#X connect 17 0 23 0;
 #X connect 20 0 16 0;
