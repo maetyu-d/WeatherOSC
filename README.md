@@ -1,0 +1,1 @@
+Run the .py file to get live weather data from Open-Meteo for the 10 largest cities in the UK, then format this data as Open Sound Control (OSC) messages. Pd Vanilla example included. https://youtu.be/eNTG0A4zzAM 
